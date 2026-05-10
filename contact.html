@@ -5,13 +5,13 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Infrastructure - Shri Ganesha Rice Mill</title>
+    <title>Contact Us - Shri Ganesha Rice Mill</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&amp;family=Manrope:wght@400;600&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&amp;family=Public+Sans:wght@600;700&amp;display=swap"
         rel="stylesheet" />
     <script id="tailwind-config">
         tailwind.config = {
@@ -166,192 +166,183 @@
             },
         }
     </script>
-    <style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-    </style>
 </head>
 
-<body class="bg-surface-cream text-on-surface font-body-md text-body-md antialiased min-h-screen flex flex-col">
-    <!-- TopNavBar Component -->
-    <nav
-        class="bg-surface-cream dark:bg-deep-earth text-primary dark:text-primary-fixed w-full z-50 sticky top-0 border-b border-outline-variant dark:border-outline">
+<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col">
+    <!-- TopNavBar -->
+    <header class="bg-surface-cream text-primary border-b border-outline-variant w-full sticky top-0 z-50">
         <div class="flex justify-between items-center px-gutter py-4 w-full max-w-container-max mx-auto">
-            <div class="text-headline-md font-display-lg font-bold text-primary dark:text-primary-fixed">
+            <div class="text-headline-md font-display-lg font-bold text-primary">
                 Shri Ganesha Rice Mill
             </div>
-            <div class="hidden md:flex gap-stack-md items-center">
-                <a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-all px-3 py-2 rounded"
-                    href="#">Home</a>
-                <a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-all px-3 py-2 rounded"
-                    href="#">About Us</a>
-                <a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-all px-3 py-2 rounded"
-                    href="#">Products</a>
-                <a class="font-body-md text-body-md text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1 hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-all px-3 py-2 rounded opacity-80 transition-opacity duration-150"
-                    href="#">Infrastructure</a>
-                <a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-all px-3 py-2 rounded"
-                    href="#">Contact</a>
-            </div>
-            <div class="hidden md:block">
-                <button
-                    class="bg-primary text-on-primary font-label-sm text-label-sm px-6 py-3 rounded-DEFAULT hover:bg-primary-container transition-colors">
-                    Enquire Now
-                </button>
-            </div>
-            <!-- Mobile Menu Toggle (Simplified for Visual) -->
-            <button class="md:hidden text-primary p-2">
+            <nav class="hidden md:flex items-center gap-stack-md font-body-md text-body-md">
+                <a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-low px-3 py-2 rounded-md"
+                    href="/index.html">Home</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-low px-3 py-2 rounded-md"
+                    href="/about.html">About Us</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-low px-3 py-2 rounded-md"
+                    href="/products.html">Products</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-low px-3 py-2 rounded-md"
+                    href="/infrastructure.html">Infrastructure</a>
+                <a class="text-primary font-bold border-b-2 border-primary pb-1 hover:bg-surface-container-low px-3 py-2 rounded-md opacity-80 transition-opacity duration-150"
+                    href="/contact.html">Contact</a>
+            </nav>
+            <!-- Mobile Menu Icon (simplified) -->
+            <button class="md:hidden text-primary">
                 <span class="material-symbols-outlined">menu</span>
             </button>
         </div>
-    </nav>
-    <!-- Main Content Canvas -->
-    <main class="flex-grow flex flex-col">
-        <!-- Hero Section -->
-        <section
-            class="relative w-full bg-deep-earth text-on-primary py-section-padding px-gutter flex items-center justify-center min-h-[409px] overflow-hidden">
-            <div class="absolute inset-0 z-0">
-                <img alt="Industrial rice milling machinery operating in a clean, modern facility."
-                    class="w-full h-full object-cover opacity-40"
-                    data-alt="A sweeping wide shot of a pristine industrial rice milling facility. Large, modern machinery in metallic silvers and deep greens dominates the space, operating efficiently. The lighting is bright and even, casting soft shadows that highlight the clean, organized environment. The overall aesthetic is professional, industrial, and high-quality, embodying modern corporate manufacturing."
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDprO-yBAp0AzR4EpZ2sHmdsJcjzQUl_zyF_w9O0Z09CaqYtvdk8Mn-JHs8QJnLVII3-C4nqmb-W_0nAqACZgDwB6XR3zndbSTlTo2glxf-2mjwVAhSRNqBuHd7cXWI6P504dQYctQJzowupKkRMj-m3Uf7vxkydq2fLG98mvL05OXcSXXcEAvJ5zXWC-MsyEFTODR2VPUJXLfYI8zIGL46U7VE22GoypSXXcvqvdGDj8Q6cjmsSQt3bHx8ScZJx6CogtDjU1PmRz8" />
-            </div>
-            <div class="relative z-10 max-w-container-max mx-auto text-center flex flex-col items-center gap-stack-md">
-                <div
-                    class="inline-flex items-center gap-2 bg-primary-container/80 backdrop-blur-sm px-4 py-2 rounded-full border border-primary-fixed/30">
-                    <span class="material-symbols-outlined text-paddy-gold"
-                        style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
-                    <span class="font-label-sm text-label-sm text-primary-fixed">1.5 MT/Hour Capacity</span>
+    </header>
+    <!-- Main Content -->
+    <main
+        class="flex-grow w-full max-w-container-max mx-auto px-gutter py-section-padding grid grid-cols-1 lg:grid-cols-12 gap-stack-lg">
+        <!-- Header Section -->
+        <div class="col-span-1 lg:col-span-12 text-center mb-stack-lg">
+            <h1 class="font-display-lg text-display-lg text-primary mb-stack-sm">Get in Touch</h1>
+            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">We welcome enquiries for
+                wholesale rice distribution, mill visits, and general questions about our products and processes.</p>
+        </div>
+        <!-- Contact Information Cards -->
+        <div class="col-span-1 lg:col-span-4 flex flex-col gap-stack-md">
+            <!-- Contact Card -->
+            <div class="bg-surface-container-lowest border border-outline-variant p-stack-md rounded-lg shadow-sm">
+                <div class="flex items-center gap-stack-sm mb-4">
+                    <span class="material-symbols-outlined text-paddy-gold text-3xl">call</span>
+                    <h3 class="font-headline-md text-headline-md text-primary">Phone</h3>
                 </div>
-                <h1 class="font-display-lg text-display-lg text-on-primary max-w-3xl">Precision Milling Operations</h1>
-                <p class="font-body-lg text-body-lg text-inverse-on-surface max-w-2xl">
-                    State-of-the-art Binny rice milling setup ensuring the highest quality output with uncompromising
-                    transparency and heritage since 1973.
+                <p class="font-body-md text-body-md text-on-surface mb-2">+91 9448741172</p>
+                <a class="inline-flex items-center gap-2 text-whatsapp-green font-label-sm text-label-sm hover:underline mt-2"
+                    href="https://wa.me/919448741172">
+                    <span class="material-symbols-outlined">chat</span> Chat on WhatsApp
+                </a>
+            </div>
+            <!-- Email Card -->
+            <div class="bg-surface-container-lowest border border-outline-variant p-stack-md rounded-lg shadow-sm">
+                <div class="flex items-center gap-stack-sm mb-4">
+                    <span class="material-symbols-outlined text-paddy-gold text-3xl">mail</span>
+                    <h3 class="font-headline-md text-headline-md text-primary">Email</h3>
+                </div>
+                <a class="font-body-md text-body-md text-on-surface hover:text-primary transition-colors break-all"
+                    href="mailto:hssujithsubramanyam@gmail.com">hssujithsubramanyam@gmail.com</a>
+            </div>
+            <!-- Location Card -->
+            <div class="bg-surface-container-lowest border border-outline-variant p-stack-md rounded-lg shadow-sm">
+                <div class="flex items-center gap-stack-sm mb-4">
+                    <span class="material-symbols-outlined text-paddy-gold text-3xl">location_on</span>
+                    <h3 class="font-headline-md text-headline-md text-primary">Location</h3>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface mb-2">Near Hullahalli, Karnataka</p>
+                <div class="mt-4 flex items-center gap-stack-sm">
+                    <span class="material-symbols-outlined text-outline">schedule</span>
+                    <p class="font-body-md text-body-md text-on-surface-variant">All days — 9:00 AM to 6:00 PM</p>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Form & Map Area -->
+        <div class="col-span-1 lg:col-span-8 flex flex-col gap-stack-lg">
+            <!-- Enquiry Form -->
+            <div class="bg-surface-cream border border-outline-variant p-stack-md lg:p-stack-lg rounded-xl shadow-sm">
+                <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Send an Enquiry</h2>
+                <form action="#" class="grid grid-cols-1 md:grid-cols-2 gap-stack-md" method="POST">
+                    <div class="col-span-1">
+                        <label class="block font-label-sm text-label-sm text-on-surface mb-1" for="name">Full Name
+                            *</label>
+                        <input
+                            class="w-full bg-surface-container-lowest border border-outline-variant rounded-DEFAULT p-3 focus:ring-2 focus:ring-paddy-gold focus:outline-none transition-shadow font-body-md text-on-surface"
+                            id="name" name="name" required="" type="text" />
+                    </div>
+                    <div class="col-span-1">
+                        <label class="block font-label-sm text-label-sm text-on-surface mb-1" for="phone">Phone Number
+                            *</label>
+                        <input
+                            class="w-full bg-surface-container-lowest border border-outline-variant rounded-DEFAULT p-3 focus:ring-2 focus:ring-paddy-gold focus:outline-none transition-shadow font-body-md text-on-surface"
+                            id="phone" name="phone" required="" type="tel" />
+                    </div>
+                    <div class="col-span-1 md:col-span-2">
+                        <label class="block font-label-sm text-label-sm text-on-surface mb-1" for="email">Email
+                            Address</label>
+                        <input
+                            class="w-full bg-surface-container-lowest border border-outline-variant rounded-DEFAULT p-3 focus:ring-2 focus:ring-paddy-gold focus:outline-none transition-shadow font-body-md text-on-surface"
+                            id="email" name="email" type="email" />
+                    </div>
+                    <div class="col-span-1 md:col-span-2">
+                        <label class="block font-label-sm text-label-sm text-on-surface mb-1" for="enquiry_type">Enquiry
+                            Type</label>
+                        <select
+                            class="w-full bg-surface-container-lowest border border-outline-variant rounded-DEFAULT p-3 focus:ring-2 focus:ring-paddy-gold focus:outline-none transition-shadow font-body-md text-on-surface appearance-none"
+                            id="enquiry_type" name="enquiry_type">
+                            <option value="wholesale">Wholesale Orders</option>
+                            <option value="visit">Mill Visit</option>
+                            <option value="general">General Enquiry</option>
+                        </select>
+                    </div>
+                    <div class="col-span-1 md:col-span-2">
+                        <label class="block font-label-sm text-label-sm text-on-surface mb-1" for="message">Message
+                            *</label>
+                        <textarea
+                            class="w-full bg-surface-container-lowest border border-outline-variant rounded-DEFAULT p-3 focus:ring-2 focus:ring-paddy-gold focus:outline-none transition-shadow font-body-md text-on-surface resize-y"
+                            id="message" name="message" required="" rows="4"></textarea>
+                    </div>
+                    <div class="col-span-1 md:col-span-2 mt-2">
+                        <button
+                            class="w-full md:w-auto bg-primary text-on-primary font-label-sm text-label-sm px-8 py-4 rounded-DEFAULT hover:bg-primary-container transition-colors shadow-sm"
+                            type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <!-- Map -->
+            <div class="rounded-xl overflow-hidden border border-outline-variant shadow-sm h-80 relative">
+                <img alt="Location Map" class="w-full h-full object-cover"
+                    data-alt="A highly detailed aerial view of a clean, modern agricultural landscape representing a rice mill location in Karnataka. The scene features lush green fields bordering a well-structured industrial facility with a light-mode aesthetic. Sunlight provides a warm, natural glow, emphasizing stability and regional connection within a minimalist corporate context."
+                    data-location="Karnataka"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrbiSgm4u8XJYqjakCkZZJjFNiVlDoSXBjecA7Z0qjsfz5aK4nPPw0ifgQgNJLBfCKY3DKkLB7zwDJevm5vId6UEiYtVeIQeSZQronlXUTP5d37MEXYyOH4DJDEfK-qo_zbBYCNGoBZY6RK-cquIay97aRoxOqDDahuk7tPSg7FFZHV8rG7_RBM1FWPimw7d-JApwvmnGIotfzcjBMrpNilHbsGOW8BnLEDXjZyC8a1WltxQbxkbFjALP32WJQTXOgm8ASLHpJYzo" />
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/10 transition-colors">
+                    <a class="bg-surface-container-lowest text-primary font-label-sm text-label-sm px-6 py-3 rounded-full shadow-md flex items-center gap-2 hover:bg-surface-cream transition-colors"
+                        href="https://maps.app.goo.gl/9WMA1WNApcs2uPbX6" target="_blank">
+                        <span class="material-symbols-outlined">map</span> View on Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-primary w-full mt-auto">
+        <div
+            class="w-full py-stack-lg px-gutter grid grid-cols-1 md:grid-cols-3 gap-stack-md max-w-container-max mx-auto text-on-primary">
+            <div class="col-span-1 flex flex-col gap-stack-sm">
+                <div class="text-headline-md font-display-lg text-primary-fixed">
+                    Shri Ganesha Rice Mill
+                </div>
+                <p class="font-body-md text-body-md text-inverse-on-surface opacity-90 mt-2">
+                    Heritage, Precision, and Transparency in every grain. Serving quality rice since 1973.
                 </p>
             </div>
-        </section>
-        <!-- Infrastructure Bento Grid -->
-        <section class="py-section-padding px-gutter w-full bg-surface-cream">
-            <div class="max-w-container-max mx-auto">
-                <div
-                    class="mb-stack-lg text-center md:text-left flex flex-col md:flex-row md:items-end justify-between gap-stack-md">
-                    <div class="max-w-2xl">
-                        <h2 class="font-headline-lg text-headline-lg text-primary mb-2">Our Facility</h2>
-                        <p class="font-body-md text-body-md text-on-surface-variant">A closer look at the advanced
-                            machinery and structured processes that power Shri Ganesha Rice Mill.</p>
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-12 gap-stack-md auto-rows-[minmax(300px,auto)]">
-                    <!-- Milling Machinery (Large Featured) -->
-                    <div
-                        class="md:col-span-8 relative rounded-xl overflow-hidden group bg-surface border border-outline-variant/30 shadow-sm min-h-[400px]">
-                        <img alt="Advanced rice milling machinery in operation."
-                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            data-alt="A close-up view of a large, complex piece of industrial milling machinery made of stainless steel and painted in muted corporate tones. The machine is in sharp focus, highlighting its precision engineering and clean surfaces. The background is a softly blurred factory setting with bright, natural light filtering in from high windows. The mood is industrial yet pristine."
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdwArUMxMyAurOqR8mDYiXUKLSVJt2AI_3-lfv3LFj-rplbnWCPch3BoaQhRngotp91Nci-PLoqqdEkizYYrxnK5NhYC0wMhzrj8UXwnj113kPBBnUMPwMhnoCNrBD0FxEtV0GS74MB-3YX4UjnuflxcJ2BWtMdO8kZGdjU_VgPUr1rk9Fkxt9Q1KwN-0-keFn3yWjm2qMUEItSWDpFX4bjgftsqlIJPBvSBmjZCnGv5A6BL2DdJX4oHFkFEEWPAYE6Ra3dCzYq2M" />
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-deep-earth/90 via-deep-earth/30 to-transparent">
-                        </div>
-                        <div class="absolute bottom-0 left-0 p-stack-md w-full">
-                            <div
-                                class="bg-surface/90 backdrop-blur-md p-stack-md rounded-lg border border-outline-variant/20">
-                                <div class="flex items-center gap-3 mb-2">
-                                    <span class="material-symbols-outlined text-paddy-gold"
-                                        style="font-variation-settings: 'FILL' 1;">settings</span>
-                                    <h3 class="font-headline-md text-headline-md text-primary">Advanced Milling
-                                        Machinery</h3>
-                                </div>
-                                <p class="font-body-md text-body-md text-on-surface-variant">Our core setup features a
-                                    high-efficiency Binny milling system capable of processing 1.5 metric tons per hour,
-                                    ensuring consistent grain quality and minimal breakage.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Paddy Cleaning (Tall Feature) -->
-                    <div
-                        class="md:col-span-4 relative rounded-xl overflow-hidden group bg-surface border border-outline-variant/30 shadow-sm min-h-[400px]">
-                        <img alt="Paddy cleaning separation process."
-                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            data-alt="A detailed shot showing the rigorous paddy cleaning process. Golden rice grains are cascading through a series of specialized metallic sieves and sorters. The lighting is crisp and clear, emphasizing the texture of the grains and the cleanliness of the equipment. The color palette revolves around warm golden hues of the rice contrasting with cool silver machinery."
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeMhmXPAKYkBBgJ7IV4xMLv-BUbze0XRMzH5v1OV5LDdBgyurXFiTXTkACVDQGxaNY9GN7UzInAozbo5rr4pUBSBAL2Q4mIBXfeufdV6qTDez29gHp7WIuiULA-c5eoUTFMiKp-lV-BJepeKlN-nk4-3uxmue51sST9S3TB-RnaG_ygtRDKxw6HyQ4U1LpCPBM40uWH7t27-3nFEYWeOCe-H4Sz7NAkZWdVOZM4J1rgT8C6TrSqwzZxIT8hm1ja0MxGKPgFtdyrbw" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-deep-earth/90 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 p-stack-md">
-                            <span class="material-symbols-outlined text-paddy-gold mb-2 block"
-                                style="font-variation-settings: 'FILL' 1;">filter_alt</span>
-                            <h3 class="font-headline-md text-headline-md text-on-primary mb-2">Paddy Cleaning</h3>
-                            <p class="font-body-md text-body-md text-inverse-on-surface line-clamp-3">Multi-stage
-                                pre-cleaning systems remove impurities, stones, and dust before the milling process
-                                begins, safeguarding purity.</p>
-                        </div>
-                    </div>
-                    <!-- Storage Area (Standard) -->
-                    <div
-                        class="md:col-span-6 relative rounded-xl overflow-hidden group bg-surface border border-outline-variant/30 shadow-sm min-h-[350px]">
-                        <img alt="Neatly stacked bags of rice in a warehouse."
-                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            data-alt="A vast, clean warehouse space filled with meticulously stacked, branded bags of premium rice. The layout is highly organized, reflecting professional inventory management. Soft, even lighting illuminates the aisles, highlighting the neatness of the storage area. The overall aesthetic is structured, reliable, and corporate."
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuATEiZurULuJLwffUgRs42hOQ3HbccQweHek9rGcPorQ1MpxUaIBscsv1nr6T4XfldYJH3xBuYY0QqI2ax5x2QV8_o2a0DZewJ5VOH7VxZW-em6vZFI_B9R60lTrWm89kamyn180G0F8LMBtZuQf6aSxTRYQ7VqegbtHg8wUMpzdvew6yyXGJCNCo2A3zJC1S51o076JALVwrOpf2bgNuWKvPE4cuzUYBl7PdhegkxOgCBZSK3ZUpe4JdvzUdAFe8EmNSCfM2CotkY" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-deep-earth/80 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 p-stack-md">
-                            <span class="material-symbols-outlined text-paddy-gold mb-2 block"
-                                style="font-variation-settings: 'FILL' 1;">warehouse</span>
-                            <h3 class="font-headline-md text-headline-md text-on-primary mb-2">Climate-Controlled
-                                Storage</h3>
-                            <p class="font-body-md text-body-md text-inverse-on-surface">Expansive, dry storage areas
-                                designed to maintain optimal moisture levels for both raw paddy and finished rice
-                                products.</p>
-                        </div>
-                    </div>
-                    <!-- Loading/Unloading (Standard) -->
-                    <div
-                        class="md:col-span-6 relative rounded-xl overflow-hidden group bg-surface border border-outline-variant/30 shadow-sm min-h-[350px]">
-                        <img alt="Logistics and loading area of the mill."
-                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            data-alt="A dynamic shot of an active loading bay at a manufacturing facility. Workers and small industrial vehicles are carefully loading neat stacks of packaged goods onto a clean transport truck. The scene is busy but highly organized. The lighting is bright daylight, emphasizing efficiency and steady workflow in a modern corporate setting."
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCF2iTiWEmZHP5FU7mqBlhcM-mli7exIozSXdOuGtNhzl2ZJLqURhwu83RE_85qmSwHtL1p_8roO_dT29Jv6DnND3f6RqWUoXksREoW9KPVr3Gwkd9OcJoUDtvTEetMYdUEdZz7OA4Wl2U0xqNbugF6TCSdk1BW3Jmomp-B0r0DMgdwSTPwyBiuc2WWtvZ5yBvAnxn3xIbiWI6C_wOSPwC1T3j_zbA-_KzF6ccmdx43VYg_IF-WlN8Ni3YiYCcTiYL3-tmgLvAse4Y" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-deep-earth/80 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 p-stack-md">
-                            <span class="material-symbols-outlined text-paddy-gold mb-2 block"
-                                style="font-variation-settings: 'FILL' 1;">local_shipping</span>
-                            <h3 class="font-headline-md text-headline-md text-on-primary mb-2">Efficient Logistics</h3>
-                            <p class="font-body-md text-body-md text-inverse-on-surface">Streamlined loading and
-                                unloading zones facilitate rapid dispatch and secure receiving of raw materials,
-                                ensuring continuous operation.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <!-- WhatsApp Floating Action Button (Mobile Only) -->
-    <a class="md:hidden fixed bottom-6 right-6 bg-whatsapp-green text-on-primary p-4 rounded-full shadow-lg z-50 hover:scale-105 transition-transform flex items-center justify-center"
-        href="#">
-        <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">chat</span>
-    </a>
-    <!-- Footer Component -->
-    <footer
-        class="bg-primary dark:bg-deep-earth w-full py-stack-lg px-gutter grid grid-cols-1 md:grid-cols-3 gap-stack-md max-w-container-max mx-auto mt-auto">
-        <div class="flex flex-col gap-stack-sm">
-            <div class="text-headline-md font-display-lg text-primary-fixed dark:text-primary-fixed-dim">
-                Shri Ganesha Rice Mill
-            </div>
-            <p class="font-label-sm text-label-sm text-on-primary dark:text-inverse-on-surface opacity-80 mt-2">
-                © 2024 Shri Ganesha Rice Mill. Established 1973. All Rights Reserved.
-            </p>
-        </div>
-        <div class="flex flex-col gap-stack-sm md:col-span-2 md:items-end justify-center">
-            <div class="flex flex-col md:flex-row gap-stack-md">
-                <a class="font-body-md text-body-md text-primary-fixed-dim opacity-80 hover:opacity-100 hover:text-whatsapp-green transition-colors focus:ring-2 focus:ring-paddy-gold outline-none rounded"
+            <div class="col-span-1 flex flex-col gap-stack-sm md:items-center">
+                <h4 class="font-label-sm text-label-sm text-paddy-gold font-bold mb-2">Contact Links</h4>
+                <a class="font-body-md text-body-md text-primary-fixed-dim opacity-80 hover:opacity-100 hover:text-whatsapp-green transition-all focus:ring-2 focus:ring-paddy-gold outline-none rounded px-1"
                     href="#">Near Hullahalli, Karnataka</a>
-                <a class="font-body-md text-body-md text-primary-fixed-dim opacity-80 hover:opacity-100 hover:text-whatsapp-green transition-colors focus:ring-2 focus:ring-paddy-gold outline-none rounded"
-                    href="tel:+919448741172">+91 9448741172</a>
-                <a class="font-body-md text-body-md text-primary-fixed-dim opacity-80 hover:opacity-100 hover:text-whatsapp-green transition-colors focus:ring-2 focus:ring-paddy-gold outline-none rounded"
+                <a class="font-body-md text-body-md text-primary-fixed-dim opacity-80 hover:opacity-100 hover:text-whatsapp-green transition-all focus:ring-2 focus:ring-paddy-gold outline-none rounded px-1"
+                    href="#">+91 9448741172</a>
+            </div>
+            <div class="col-span-1 flex flex-col gap-stack-sm md:items-end">
+                <h4 class="font-label-sm text-label-sm text-paddy-gold font-bold mb-2">Legal</h4>
+                <a class="font-body-md text-body-md text-primary-fixed-dim opacity-80 hover:opacity-100 hover:text-whatsapp-green transition-all focus:ring-2 focus:ring-paddy-gold outline-none rounded px-1"
                     href="#">Privacy Policy</a>
-                <a class="font-body-md text-body-md text-primary-fixed-dim opacity-80 hover:opacity-100 hover:text-whatsapp-green transition-colors focus:ring-2 focus:ring-paddy-gold outline-none rounded"
+                <a class="font-body-md text-body-md text-primary-fixed-dim opacity-80 hover:opacity-100 hover:text-whatsapp-green transition-all focus:ring-2 focus:ring-paddy-gold outline-none rounded px-1"
                     href="#">Terms of Service</a>
             </div>
         </div>
+        <div
+            class="w-full max-w-container-max mx-auto px-gutter py-4 border-t border-on-primary/20 text-center font-label-sm text-label-sm text-inverse-on-surface opacity-80">
+            © 2024 Shri Ganesha Rice Mill. Established 1973. All Rights Reserved.
+        </div>
     </footer>
+    <!-- Fixed WhatsApp Button (Mobile mainly, but visible desktop) -->
+    <a class="fixed bottom-6 right-6 bg-whatsapp-green text-on-tertiary p-4 rounded-full shadow-lg hover:shadow-xl transition-shadow z-50 flex items-center justify-center focus:ring-4 focus:ring-whatsapp-green/50 outline-none"
+        href="https://wa.me/919448741172?text=I'm%20interested%20in%20Shri%20Ganesha%20Rice%20Mill" target="_blank">
+        <span class="material-symbols-outlined text-3xl">chat</span>
+    </a>
 </body>
 
 </html>

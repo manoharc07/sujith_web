@@ -1,0 +1,25 @@
+/*
+Theme Name: Shri Ganesha Rice Mill
+Theme URI: https://shrganesharicemill.com
+Author: Shri Ganesha Rice Mill
+Author URI: https://shrganesharicemill.com
+Description: Custom WordPress theme for Shri Ganesha Rice Mill — a trusted rice milling business established in 1973, based near Hullahalli, Karnataka.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 7.4
+License: Proprietary
+Text Domain: sgrm
+*/
+
+/* Base resets — Tailwind handles the rest via CDN */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
